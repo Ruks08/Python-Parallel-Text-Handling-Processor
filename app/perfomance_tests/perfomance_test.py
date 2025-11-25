@@ -1,18 +1,6 @@
 """
 app/perfomance_tests/perfomance_test.py
 
-Performance Benchmark for the Parallel Text Processing Pipeline
-
-This script measures:
-    ✔ File loading speed
-    ✔ Text chunking performance
-    ✔ Parallel scoring speed (multiprocessing)
-    ✔ CPU usage and RAM consumption
-    ✔ Full pipeline execution time
-
-Outputs:
-    - Detailed console logs
-    - performance_report.txt inside performance_tests/reports/
 """
 
 import os

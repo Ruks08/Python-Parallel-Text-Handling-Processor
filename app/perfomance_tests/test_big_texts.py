@@ -1,13 +1,7 @@
 """
 app/perfomance_tests/test_big_texts.py
 
-Performance test for the FULL parallel pipeline:
-    ✔ Reads a large text file
-    ✔ Breaks into groups
-    ✔ Runs rule-based scoring in parallel
-    ✔ Reports execution time and chunk count
 
-Use this to verify scaling on large inputs.
 """
 
 import time
@@ -24,15 +18,7 @@ def test_large_text_file(
     group_size: int = 800,
     workers: int = 6
 ):
-    """
-    Run pipeline performance test on a large text file.
-
-    Args:
-        file_path: Path to a large .txt file
-        rules_path: Path to rules.json
-        group_size: Words per chunk
-        workers: Max parallel threads
-    """
+    
 
     if not os.path.exists(file_path):
         logger.error("Large text file not found: %s", file_path)

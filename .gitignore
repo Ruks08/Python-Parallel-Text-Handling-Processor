@@ -1,0 +1,15 @@
+.gitignore
+--------------
+
+# Environment variables
+.env
+
+# Databases
+*.db
+checks.db
+
+# Data folder
+data/
+
+*.json
+*.txt
